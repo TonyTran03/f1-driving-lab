@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.vscode/
+.DS_Store
+
+# Generated results, plots, presentations and local caches never belong in Git.
+/output/
+/tmp/
+/cache/
+*.egg-info/

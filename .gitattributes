@@ -1,0 +1,10 @@
+# Runtime images and serialized models must retain their exact bytes.
+*.png binary
+*.joblib binary
+
+# Preserve byte-level input provenance on all platforms.
+/data/*.csv text eol=lf
+/data/telemetry/**/*.csv -text whitespace=cr-at-eol
+
+# Animated README demonstrations.
+*.gif binary

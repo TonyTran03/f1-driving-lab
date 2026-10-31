@@ -1,0 +1,11 @@
+numpy
+pygame
+pytest
+joblib
+scikit-learn
+
+scipy
+pandas
+matplotlib
+fastf1
+pillow
